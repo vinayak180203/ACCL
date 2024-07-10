@@ -451,6 +451,24 @@ button:focus {
   background-image: var(--section-background-color) !important;
 }
 
+.blog-section{
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  height: 100vh;
+  color: white;
+}
+
+.blog {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  height: 100vh;
+  color: white;
+}
+
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
