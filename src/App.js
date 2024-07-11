@@ -6,8 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import PostList from "./components/Blogs/Postlist";
-import Post from "./components/Blogs/Post";
+import Publication from "./components/Publication/Publication";
 import People from "./components/People/People";
 import {
   BrowserRouter as Router,
@@ -42,8 +41,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/people" element={<People />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/blogs/:postId" element={<Post />}/>
-          <Route path="/postlist" element={<PostList />} />
+          <Route path="/publication" element={<Publication />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

@@ -456,7 +456,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  height: 100vh;
+  /* height: 100vh; */
   color: white;
 }
 
@@ -758,4 +758,55 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* App.css */
+
+.markdown-body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+}
+
+.markdown-body h2 {
+  font-size: 1.5em;
+}
+
+.markdown-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.markdown-body li {
+  margin-bottom: 1em;
+}
+
+.markdown-body a {
+  color: #c770f0; /* Tailwind blue-600 */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-weight: bold; /* Bold paper name */
+  display: block; /* Block display to separate paper name and authors */
+  margin-bottom: 0.5em; /* Space between paper name and authors */
+  z-index: 10000;
+  position: relative;
+}
+
+.markdown-body a:hover {
+  color: #623686; /* Tailwind blue-700 */
+  text-decoration: underline;
+}
+
+.markdown-body p {
+  margin: 0;
 }
