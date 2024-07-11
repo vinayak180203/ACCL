@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import PostList from "./components/Blogs/Postlist";
 import Post from "./components/Blogs/Post";
+import People from "./components/People/People";
 import {
   BrowserRouter as Router,
   Route,
@@ -39,7 +40,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/people" element={<People />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blogs/:postId" element={<Post />}/>
           <Route path="/postlist" element={<PostList />} />
