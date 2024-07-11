@@ -6,7 +6,7 @@
 ### 2022
 
 - [Adopting Heterogeneous Computing Modules: Experiences from a ToUCH Summer Workshop](https://ieeexplore.ieee.org/document/10027539)
-  David P. Bunde, Kishwar Ahmed, Sridevi Ayloo, Tisha Brown-Gaines, Joel Fuentes, Vishwesh Jatala, Ruth Kurniawati, Isil Öz, Apan Qasem, Philip J. Schielke, Mary C. Tedeschi, Thomas Y. Yeh: - EduHPC@SC 2022
+  David P. Bunde, Kishwar Ahmed, Sridevi Ayloo, Tisha Brown-Gaines, Joel Fuentes, Vishwesh Jatala, Ruth Kurniawati, Isil Öz, Apan Qasem, Philip J. Schielke, Mary C. Tedeschi, Thomas Y. Yeh - EduHPC@SC 2022
 
 - [Joint Partitioning and Sampling Algorithm for Scaling Graph Neural Network](https://ieeexplore.ieee.org/document/10106346)
   Manohar Lal Das, Vishwesh Jatala, Gagan Raj Gupta - HIPC 2022

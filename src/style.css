@@ -184,7 +184,7 @@ button:focus {
   font-weight: 400;
   transition: all 0.3s ease-out 0s;
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 
 .navbar-nav .nav-item a::after {
@@ -798,7 +798,7 @@ button:focus {
   font-weight: bold; /* Bold paper name */
   display: block; /* Block display to separate paper name and authors */
   margin-bottom: 0.5em; /* Space between paper name and authors */
-  z-index: 10000;
+  z-index: 5;
   position: relative;
 }
 
