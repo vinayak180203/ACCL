@@ -782,13 +782,17 @@ button:focus {
   font-size: 1.5em;
 }
 
+.markdown-body h3 {
+  margin-top: 1em; 
+}
+
 .markdown-body ul {
   list-style: none;
   padding: 0;
 }
 
 .markdown-body li {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 .markdown-body a {

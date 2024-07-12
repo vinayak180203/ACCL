@@ -17,7 +17,6 @@ function PostList() {
       <Particle />
       <div className="w-full max-w-4xl p-6 bg-transparent rounded-lg shadow-md text-left" style={{ boxShadow: '0 4px 5px 3px rgba(119, 53, 136, 0.459)' }}>
         <h1 className="text-3xl font-bold mb-6">Publications</h1>
-        <h2 className="text-xl font-semibold mb-4">Year-wise</h2>
         <div className="markdown-body">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
         </div>
